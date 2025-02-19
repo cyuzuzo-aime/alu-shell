@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ld $(mkdir -m 751 my_dir 2>/dev/null)
+chmod -m 751 my_dir
