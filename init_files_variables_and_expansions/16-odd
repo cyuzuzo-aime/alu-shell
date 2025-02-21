@@ -1,0 +1,2 @@
+#!/bin/bash
+nl -v 0 | grep -E '^[0-9]*[02468] ' | cut -f2-
