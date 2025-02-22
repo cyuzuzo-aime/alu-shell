@@ -14,7 +14,7 @@ while [ "$i" -lt 21 ]; do
             echo "bad luck from Italy"
             ;;
         *)
-            echo ""
+            
             ;;
         esac
         
