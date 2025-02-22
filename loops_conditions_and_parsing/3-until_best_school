@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Initializing the variable
+i=0
+# Use an until loop to display "Best School" 10 times
+until [ $i -ge 10 ]; do
+  echo "Best School"
+  ((i++))
+done
