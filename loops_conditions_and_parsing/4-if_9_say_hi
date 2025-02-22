@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Displaying Best School; and adding Hi if the counter is 9
+i=1
+while [ "$i" -lt 11 ]; do
+  echo "Best School"
+  
+  # Condition to check if the counter is 9
+  if [ "$i" -eq 9 ]; then
+    echo "Hi"
+  fi
+
+  ((i++))
+done
